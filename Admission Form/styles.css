@@ -1,0 +1,12 @@
+
+h2{
+    color:blue;
+     
+}
+.container {
+    background-color:rgb(205, 222, 253); 
+    padding: 0 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+}
