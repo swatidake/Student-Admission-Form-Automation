@@ -34,6 +34,11 @@ The admission form is a web page that collects the following information from st
 The `StudentAdmissionForm.java` file contains the Selenium WebDriver code written in Java. It automates the process of filling out the admission form by interacting with the web elements on the admission form web page.
 
 
+## pom.xml File
+
+The `pom.xml` file is a Maven project configuration file that specifies the project's dependencies and build settings. It includes the necessary dependencies for Selenium WebDriver, which are required to execute the automation script.
+
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -56,4 +61,7 @@ To execute the automation script, run the `StudentAdmissionForm.java` file locat
 java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmissionForm
 
 
+## Contributing
+
+Contributions to this project are welcome! Feel free to open issues or pull requests with any improvements, bug fixes, or new features you'd like to see.
 
