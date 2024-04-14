@@ -61,59 +61,6 @@ java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmis
  * 
  * JavaScript (script.js):
  * - The JavaScript file contains client-side scripting logic for the student admission form.
- * - It may include event handlers for form submission, validation, and interaction with the user.
- * - It can dynamically update the form based on user input, handle errors, and perform asynchronous tasks such as AJAX requests.
- * 
- * @author [Your Name]
- * @version 1.0
- * @since [Date]
- */
-
-import java.time.Duration;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-public class StudentAdmissionForm {
-
-    public static void main(String[] args) throws InterruptedException {
-
-        // URL of the student admission form
-        String url = "http://127.0.0.1:5500/Form/index.html";
-
-        // Initialize WebDriver
-        WebDriver driver = new ChromeDriver();
-
-        // Navigate to the URL
-        driver.get(url);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.manage().window().maximize();
-        Thread.sleep(2000);
-
-        // Fill out the form
-        WebElement firstName = driver.findElement(By.name("firstname"));
-        firstName.sendKeys("Riya");
-
-        WebElement middleName = driver.findElement(By.name("middlename"));
-        middleName.sendKeys("Vijay");
-
-        WebElement lastName = driver.findElement(By.name("lastname"));
-        lastName.sendKeys("Mehara");
-
-        // Continue filling out the form...
-
-        // Submit the form
-        driver.findElement(By.id("submit")).click();
-
-        // Handle alert message
-        Alert alert = driver.switchTo().alert();
-        System.out.println(alert.getText());
-        alert.accept();
-
-        // Close the browser
-        Thread.sleep(3000);
-        driver.quit();
-    }
-}
+ 
+ 
+   
