@@ -43,8 +43,8 @@ This project automates the student admission form using Selenium WebDriver in Ja
 
 The admission form is a web page that collects the following information from students:
 
-- **Name:** First name, middle name, and last name.
-- **Mobile Number:** The student's contact number.
+**Name:** First name, middle name, and last name.
+**Mobile Number:** The student's contact number.
 - **Email:** The student's email address.
 - **Address:** The student's residential address.
 - **Gender:** Male, female, or other.
