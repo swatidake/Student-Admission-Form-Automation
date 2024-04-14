@@ -35,4 +35,8 @@ To execute the automation script, run the `StudentAdmissionForm.java` file locat
 java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmissionForm
 
 
+## Java File Details
+
+The `StudentAdmissionForm.java` file contains the Selenium WebDriver code written in Java. It automates the process of filling out the admission form by interacting with the web elements on the admission form web page.
+
 
