@@ -13,6 +13,12 @@ This project automates the student admission form using Selenium WebDriver in Ja
 - Agrees to terms and conditions.
 - Submits the form and handles the alert message.
 
+
+## Java File Details
+
+The `StudentAdmissionForm.java` file contains the Selenium WebDriver code written in Java. It automates the process of filling out the admission form by interacting with the web elements on the admission form web page.
+
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -34,9 +40,5 @@ To execute the automation script, run the `StudentAdmissionForm.java` file locat
 ```bash
 java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmissionForm
 
-
-## Java File Details
-
-The `StudentAdmissionForm.java` file contains the Selenium WebDriver code written in Java. It automates the process of filling out the admission form by interacting with the web elements on the admission form web page.
 
 
