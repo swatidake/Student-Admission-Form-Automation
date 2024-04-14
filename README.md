@@ -14,6 +14,21 @@ This project automates the student admission form using Selenium WebDriver in Ja
 - Submits the form and handles the alert message.
 
 
+## Admission Form Details
+
+The admission form is a web page that collects the following information from students:
+
+- **Name:** First name, middle name, and last name.
+- **Mobile Number:** The student's contact number.
+- **Email:** The student's email address.
+- **Address:** The student's residential address.
+- **Gender:** Male, female, or other.
+- **Date of Birth:** Day, month, and year.
+- **Qualification:** The student's educational qualification.
+- **Programming Languages:** Checkboxes to select the programming languages the student wants to learn.
+- **Terms and Conditions:** Checkbox to agree to the terms and conditions.
+
+
 ## Java File Details
 
 The `StudentAdmissionForm.java` file contains the Selenium WebDriver code written in Java. It automates the process of filling out the admission form by interacting with the web elements on the admission form web page.
