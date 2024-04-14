@@ -59,7 +59,7 @@ To execute the automation script, run the `StudentAdmissionForm.java` file locat
 
 ```bash
 java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmissionForm
-
+```
 
 ## Contributing
 
