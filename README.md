@@ -61,6 +61,16 @@ To execute the automation script, run the `StudentAdmissionForm.java` file locat
 java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmissionForm
 ```
 
+## Technology Used
+
+- **Selenium WebDriver:** Used for automating web application testing.
+- **Java:** Programming language used for writing the automation script.
+- **Maven:** Dependency management tool used for managing project dependencies and building the project.
+- **HTML:** Markup language used for structuring the admission form web page.
+- **CSS:** Styling language used for defining the appearance of the admission form web page.
+- **JavaScript:** Scripting language used for adding interactivity to the admission form web page.
+
+
 ## Contributing
 
 Contributions to this project are welcome! Feel free to open issues or pull requests with any improvements, bug fixes, or new features you'd like to see.
