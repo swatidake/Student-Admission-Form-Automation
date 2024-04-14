@@ -29,6 +29,8 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-To execute the automation script, run the `StudentAdmissionForm.java` file located in the `src` directory. Make sure you have the Chrome WebDriver installed and added to your system path.
+To execute the automation script, run the `StudentAdmissionForm.java` file located in the `src` directory. This Java file contains the Selenium WebDriver code that interacts with the admission form web page. Make sure you have the Chrome WebDriver installed and added to your system path.
 
+```bash
+java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmissionForm
 
