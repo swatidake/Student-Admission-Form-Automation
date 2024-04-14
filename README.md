@@ -34,9 +34,8 @@ To execute the automation script, run the `StudentAdmissionForm.java` file locat
 ```bash
 java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmissionForm
 
-# Student Admission Form Automation
 
-## Introduction
+## Student Admission Form Automation
 
 This project automates the student admission form using Selenium WebDriver in Java. The admission form is a web-based form used for collecting information from students applying for admission to a school or educational institution.
 
