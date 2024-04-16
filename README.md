@@ -69,6 +69,10 @@ java -cp target/12-sep-selenium-0.0.1-SNAPSHOT.jar com.fbs.formdemo.StudentAdmis
 - **HTML:** Markup language used for structuring the admission form web page.
 - **CSS:** Styling language used for defining the appearance of the admission form web page.
 - **JavaScript:** Scripting language used for adding interactivity to the admission form web page.
+- **HTML:** Structure of the admission form page.
+- **CSS:** Styles the admission form page.
+- **JavaScript:** Adds interactivity.
+- **Bootstrap:** Responsive design framework.
 
 
 ## Contributing
